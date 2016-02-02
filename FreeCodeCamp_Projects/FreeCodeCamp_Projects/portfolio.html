@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<style>
+
+    .homeSpot{
+        background-image:url(images/smartphone.jpg);
+        height:800px;
+        width:100%;
+
+        
+       
+    }
+    .portfolioSpot {
+        background-image:url(images/keyboard.jpg);
+        height:800px;
+        width:100%;
+    }
+    .aboutSpot {
+        background-image:url(images/apple.jpg); 
+        height:800px;
+        width:100%;
+    }
+    .contactSpot {
+        background-image:url(images/nightCity.jpg);
+        height:800px;
+        width:100%;
+    }
+    .centercontents {
+        margin: 10% 0% 5% 0%;
+    text-align: center !important;
+}
+    .buttonMargins {
+        margin: 0% 1% 0% 1%;
+    }
+    .shadowBox {
+        box-shadow: 10px 10px 5px #888888;
+    }
+    .opaque {
+        background-color:white;
+        opacity:0.4;
+    }
+    .section {        
+    position:relative;
+    z-index:1;
+    height:500%;
+    width:500%;
+    background-attachment:fixed;    /* this keeps the background in place */
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+    .content {
+    position:relative;
+    z-index:2;
+    background-color:#fff;
+    border:2px solid #666;    
+    height:50%;    /* this height difference allows the bg to show through */    
+}
+
+</style>
+</head>
+
+
+<body>
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="images/orangefootprint.png" alt="" class="navbar-brand" /><p class="navbar-brand">Larry Shields</p>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">Home</a></li>     
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+
+
+
+    
+    <section id="homeSpot" class="homeSpot">
+        <a name="#home"></a>
+        <div class="container-fluid">
+            <h1 class="centercontents">Just put me in the Center somewhere!</h1>
+            
+            <div class="row">
+                <div class="col-xs-* col-md-6 col-lg-6 text-right"><button class="btn button-default buttonMargins shadowBox"><i class="fa fa-twitter"></i>  Twitter</button><button class="btn button-default buttonMargins shadowBox"><i class="fa fa-github"></i>  GitHub</button></div>
+                <div class="col-xs-* col-md-6 col-lg-6 text-left"><button class="btn button-default buttonMargins shadowBox"><i class="button-default fa fa-linkedin-square"> </i> LinkedIn</button><button class="btn button-default buttonMargins shadowBox"><i class="fa fa-fire"></i>  freeCodeCamp</button></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-* col-md-* col-lg-* block-center"><hr width="50%" /></div>
+            </div>
+      
+        </div>
+
+    </section>
+    <section id="aboutSpot" class="aboutSpot">
+        <a name="#about"></a>
+        <div class="container-fluid">
+            <img src="images/burger300x600.jpg" alt="" class="img-responsive img-circle" />
+            <p>
+                My name is Larry. I've been working in the technology field for about 10 years now. I started out as a simple technician replacing hardware and installing printer drivers. 
+                I know it sounds like a glamorous lifestyle full of international travel and intrigue but I soon found my way into Product Management. 
+                I've been running cross functional teams for the past five years now as a Senior Product Manager but still find time to live out my fantasies as a software developer, hence the site.
+
+                If you've found this site, you're seeing the wonderful work I've been doing through the <a href="http://www.freecodecamp.com/runstache" target="_blank">free code camp</a> courses.
+            </p>
+
+        </div>
+    </section>
+    <section id="portfolioSpot" class="portfolioSpot">
+        <a name="#portfolio"></a>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-* col-sm-* col-md-3 col-lg-3">
+                    <div class="thumbnail">
+                        <a href="http://www.lswebworld.com" target="_blank">
+                            <img src="images/homePage.png" alt="" />
+                        </a>
+                        <div class="caption">
+                            <br />
+                            <h4>WebAPI & AngularJS Homepage</h4>
+                        </div>
+                    </div>
+ 
+
+                </div>
+
+                <div class="col-xs-* col-sm-* col-md-3 col-lg-3">
+                    <div class="thumbnail">
+                        <img src="images/coming-soon.jpg" alt="" />
+                        <div class="caption">
+                            <h4>Comming Soon</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-* col-sm-* col-md-3 col-lg-3">
+                    <div class="thumbnail">
+                        <img src="images/coming-soon.jpg" alt="" />
+                        <div class="caption">
+                            <h4>Comming Soon</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-* col-sm-* col-md-3 col-lg-3">
+                    <div class="thumbnail">
+                        <img src="images/coming-soon.jpg" alt="" />
+                        <div class="caption">
+                            <h4>Comming Soon</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section id="contactSpot" class="contactSpot">
+        <a name="#contact"></a>
+        <div class="container-fluid">
+
+        </div>
+    </section>
+   
+</body>
+</html>
